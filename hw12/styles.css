@@ -1,0 +1,126 @@
+body{
+    padding: 15px;
+    margin: 35px;
+}
+.menu a{
+    font-size: 18px;
+    color: #828282;
+    text-decoration:none;
+    letter-spacing: 0.1em;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu a:hover{
+    color: #070707;
+}
+
+li{
+    list-style-type: none;
+}
+
+.description{
+    font-size: 47.3392px;
+    color: #070707;
+}
+
+.border_menu{
+    font-size: 18px;
+    border: 1px solid #828282;
+} 
+
+#span_div{
+    display: inline-block;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.fullstack{
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.rueng{
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    writing-mode: tb-rl;
+    transform:rotate(180deg);
+} 
+
+.rueng:hover{
+    color: #070707;
+}
+
+#img_first{
+    min-width: 100%;
+    min-height: 100%;
+}
+.section_about {
+    height: 506px;
+    background: #F6F6F6;
+    justify-content: center;
+    padding: 100px;
+}
+
+.h1{
+    font-size: 34px;
+    color: #070707;
+    
+} 
+
+.p{
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+.sectionSkills{
+    font-size: 34px;
+    color: #070707;
+}
+
+
+/* .photoshopLogo{
+    font-size: small;
+} */
+
+/* .starLogo{
+    width: 1%;
+    height: 1%;
+} */
+.textPortfolio{
+    font-size: 34px;
+    color: #070707;
+    align-items: center;
+}
+
+.textInPortfolio{
+    font-size: 18px;
+}
+
+.text_contacts{
+    font-size: 34px;
+    color: #070707;
+}
+
+.buttonInSectionContacts{
+    color: #F6F6F6;
+    border-radius: 10px;
+    background: #070707;
+}
+
+.textInFooter{
+    font-size: 14px;
+    color: #828282;
+}
+
+#reebok{
+    min-width: 100%;
+    min-height: 100%;
+}

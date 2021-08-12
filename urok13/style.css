@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    max-width: 1200px;
+}
+
+body{
+    margin: 0;
+
+}
+
+.verhnee_menu{
+    background: #f7f7f7;
+    display: inline-block;
+    width: 100%;
+}
+
+.left, .ul_li li{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.verhnee_menu ul_li li{
+    float: left;
+}
+
+.ul_li {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.ul_li li{
+    padding: 10px 14px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}

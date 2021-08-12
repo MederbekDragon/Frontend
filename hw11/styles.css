@@ -1,0 +1,25 @@
+.mother{
+    background: red;
+    width: 10%;
+    height: 100px;
+    color: black;
+}
+
+.mother .dauther{
+    background: yellow;
+    color: darkblue;
+    font-size: x-large;
+}
+
+.father{
+    background: saddlebrown;
+    width: 20%;
+    height: 100px;
+    color: whitesmoke;
+}
+
+.father .son{
+    background: #345534;
+    color: wheat;
+    font-size: large;
+}

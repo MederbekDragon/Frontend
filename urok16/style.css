@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+}
+
+body, p{
+    margin: 0;
+
+}
+.verhnee_menu{
+    background: #f7f7f7;
+}
+
+.verhnee_menu .ul_li{
+    background: #f7f7f7;
+    display: inline;
+    width: 100%;
+}
+
+.left, .ul_li > li{
+    float: left;
+}
+
+.right{
+    display: flex;
+    float: right;
+}
+
+.verhnee_menu .ul_li i{
+    margin-right: 10px;
+}
+
+.ul_li{
+    list-style: none;
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.ul_li li{
+    padding: 10px 15px;
+}
+
+.b-r li{
+    border-right: 1px solid #dadada;
+}
+
+.b-r li:last-child{
+    border-right: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    justify-content: space-between;
+}
+
+.container .right{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.msg {
+    position: relative;
+    top:-7px;
+    right: 8px;
+    background: red;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    color: white;
+    font-size: 9px;
+    line-height: 1.5px;
+    border-radius: 13px;
+}
+
+.icon_msg {
+    position: relative;
+}
+
+.gift-photo{
+    width: 20px;
+    height: 18px;
+}
+
+.campLogo {
+    width: 150px;
+    height: 100px;
+}
+
+.center_menu .ul_li{
+    display:inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sryi_krug{
+    background: #ececec;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 2.5;
+    border-radius: 20px;
+    color: #4c4b6c;
+
+}
+
+.m-l-10{
+    margin-left:10px;
+}
+
+.center_menu .right > p:first-child{
+    font-weight: bold;
+    color: #4c4b6c;
+}
+
+.center_menu .right > p{
+    color: #ababab;
+}
+
+.nijnee_menu{
+    display: inline-block;
+    width: 100%;
+    background: #ececec;
+}
+
+.nijnee_menu li {
+    list-style-type: none;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+ }
+ 
+
+.red{color: red;}
+.orange {color: orange;}
+.blue {color:blue}
+
+.dropdown_menu {
+    display: none;
+    position: relative;
+    background: white;
+    border: 2px solid white;
+    width: 100%;
+    top: 10px;
+    left: 0;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, .7);
+}
+
+.ShopPages .Product{
+    display: flex;
+}
+
+.hover_menu li:hover .dropdown_menu {
+    display: block;
+}
+
+.decor {
+    text-decoration: none;
+    color: #4c4b6c;
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 2.5;
+    border-radius: 20px;
+}
+
+.hover_menu a:hover {
+    background:#20bcc2;
+    color: #fff;
+}
+
+
+form {
+    position: relative;
+    width: 300px;
+    margin: 10px auto;
+}
+input {
+width: 100%;
+height: 42px;
+padding-left: 10px;
+border: 2px solid #f7f7f7;
+border-radius: 20px;
+outline: none;
+background: #fff;
+color: black;
+}
+button {
+position: absolute; 
+top: 0;
+right: 0px;
+width: 42px;
+height: 42px;
+border: 2px solid #f7f7f7;
+background:#fff;
+border-radius: 0 20px 20px 0;
+cursor: pointer;
+}
+
+button:before {
+content: "\f002";
+font-family: FontAwesome;
+font-size: 16px;
+color: #F7f7f7;
+}
+
+.yellow_krug{
+    background: #f5d316;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 2.5;
+    border-radius: 20px;
+    color: #4c4b6c;
+
+}
+
+.grey{color: grey;}
+
